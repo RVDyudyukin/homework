@@ -154,7 +154,7 @@ body.overflow {
 
 .content__list-item  {
     cursor: pointer;
-    padding: 12px 18px;
+    padding: 12px 25px;
     background-color: #fff;
     border-radius: 10px;
     border: 1px solid #DADEC9;
@@ -289,4 +289,5 @@ li a {
     .sidebar__user {
         margin-left: 0;
     }
+
 }
