@@ -1,0 +1,14 @@
+body {
+    background: #505050;
+    color: #0ac20a;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IMG {
+    border-radius: 30px;
+    border: 10px solid rgb(163, 121, 234);
+    padding: 50px;
+}
