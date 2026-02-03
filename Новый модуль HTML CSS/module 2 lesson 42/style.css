@@ -1,0 +1,51 @@
+form {
+    font-family: sans-serif;
+    display: block;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.fieldset {
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.input_text {
+    display: block;
+    max-width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: brown;
+    border-style: groove;
+    text-indent: 7px;
+}
+
+.message {
+    display: block;
+    max-width: 169px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: rgb(117, 15, 15);
+    border-style: groove;
+    border-width: 2px;
+    resize: vertical;
+    max-height: 150px;
+    text-indent: 7px;
+}
+
+.button_input {
+    border: none;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .7s;
+}
+
+.button_input:hover {
+    background: rgb(241, 152, 37);
+}
