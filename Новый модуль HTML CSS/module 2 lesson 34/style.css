@@ -1,0 +1,21 @@
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: sans-serif;
+}
+
+.caption,
+thead {
+    border: 1px solid black;
+    font-weight: 600;
+    border-bottom: none;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.holiday {
+    color: red;
+}
