@@ -34,6 +34,7 @@ label {
     border-width: 2px;
     resize: vertical;
     max-height: 150px;
+    min-height: 50px;
     text-indent: 7px;
 }
 
@@ -48,4 +49,5 @@ label {
 
 .button_input:hover {
     background: rgb(241, 152, 37);
+
 }
