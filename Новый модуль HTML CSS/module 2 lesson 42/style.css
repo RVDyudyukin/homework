@@ -34,7 +34,7 @@ label {
     border-width: 2px;
     resize: vertical;
     max-height: 150px;
-    min-height: 50px;
+    min-height: 30px;
     text-indent: 7px;
 }
 
@@ -51,3 +51,4 @@ label {
     background: rgb(241, 152, 37);
 
 }
+
