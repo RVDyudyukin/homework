@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form {
+  border: 1px solid #ff922b;
+  border-radius: 6px;
+  max-width: 400px;
+  width: 100%;
+  padding: 15px;
+}
+
+.form-group {
+  border: none;
+  padding: 0;
+}
+
+.form-group-title {
+  font-weight: 700;
+  font-size: 25px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  max-height: 150px;
+  min-height: 30px;
+  resize: vertical;
+}
+
+.input,
+.textarea {
+  border: 1px solid #333;
+  border-radius: 6px;
+  width: 100%;
+  padding: 5px 12px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.input:disabled,
+.textarea:disabled {
+  opacity: 0.5;
+}
+
+.checkbox-label {
+  padding-left: 22px;
+}
+
+.checkbox {
+  position: absolute;
+  appearance: none;
+  outline: none;
+}
+
+.checkbox::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  border: 1px solid #333;
+  border-radius: 4px;
+  margin-left: -22px;
+}
+
+.checkbox:checked::after {
+  background: url(../imgs/check-icon.svg) no-repeat center #ff922b;
+}
+
+.checkbox-text {
+  font-size: 14px;
+}
+
+.button {
+  border: none;
+  border-radius: 6px;
+  padding: 6px 18px;
+  background-color: #ff922b;
+  cursor: pointer;
+  transition: opacity 0.4s;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.button:active {
+  background-color: #c96101;
+  scale: 1.1;
+}
+
+.button:not(:disabled):active {
+  opacity: 0.5;
+}
+
+.input:focus-visible,
+.textarea:focus-visible,
+.checkbox:focus-visible::after,
+.button:focus-visible {
+  outline: 2px solid #ff922b;
+  outline-offset: 1px;
+}
