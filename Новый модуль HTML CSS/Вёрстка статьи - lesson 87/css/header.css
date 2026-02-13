@@ -1,0 +1,47 @@
+.header__inner {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d3cbd9;
+    text-decoration: none;
+    margin-bottom: 80px;
+}
+
+.emblem__Fit_STUDIO {
+    display: inline-block;
+    max-width: 80px;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #2c332f;
+    text-decoration: none;
+
+}
+
+.text__emblem {
+    min-width: 77px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #2c332f;
+}
+
+.contact_information {
+    text-align: right;
+}
+
+.contact_information-text {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #858e8a;
+    margin-bottom: 8px;
+}
+
+.contact_information-tel {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2c332f;
+    text-decoration: none;
+    max-width: 400px;
+}

@@ -1,0 +1,115 @@
+html {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+button {
+    outline: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 19px 32px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    background: #3596ed;
+    color: #fff;
+    transition: opacity 0.3s, background-color 0.3s;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:active {
+    background-color: #3990db;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-mb {
+    margin-bottom: 140px;
+}
+
+.text {
+    margin-bottom: 20px;
+    line-height: 1.3;
+    color: #535755;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.title-large {
+    max-width: 596px;
+    font-family: Oswald, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #2c332f;
+    margin-bottom: 40px;
+}
+
+.article-title-medium {
+    font-size: 36px;
+}
+
+.title__medium {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #2c332f;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+    outline: 2px solid #3596ed;
+    outline-offset: 2px;
+}
+
+.button:not(:disabled):active {
+    background: #3990db;
+}
+
+button.button:disabled {
+    opacity: 0.75;
+    cursor: default;
+}
