@@ -1,0 +1,172 @@
+html {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 375px;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+button {
+    outline: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 19px 32px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    background: #3596ed;
+    color: #fff;
+    -webkit-transition: opacity 0.3s, background-color 0.3s;
+    -o-transition: opacity 0.3s, background-color 0.3s;
+    transition: opacity 0.3s, background-color 0.3s;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:active {
+    background-color: #3990db;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-mb {
+    margin-bottom: 140px;
+}
+
+.text {
+    margin-bottom: 20px;
+    line-height: 1.3;
+    color: #535755;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.title-large {
+    max-width: 596px;
+    font-family: Oswald, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #2c332f;
+    margin-bottom: 40px;
+}
+
+.article-title-medium {
+    font-size: 36px;
+}
+
+.title__medium {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #2c332f;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+    outline: 2px solid #3596ed;
+    outline-offset: 2px;
+}
+
+.button:not(:disabled):active {
+    background: #3990db;
+}
+
+button.button:disabled {
+    opacity: 0.75;
+    cursor: default;
+}
+
+/* ======================================================================= */
+
+
+@media (width <=992px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (width <=768px) {
+    .container {
+        max-width: 576px;
+    }
+
+    .title-large {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .home__page .title-large {
+        font-size: 40px;
+        text-align: center;
+        max-width: inherit;
+    }
+
+    .section-mb {
+        margin-bottom: 80px;
+    }
+
+    .title__medium {
+        font-size: 22px;
+    }
+}
+
+@media (width <=576px) {
+
+    .title-large {
+        font-size: 34px;
+    }
+}
