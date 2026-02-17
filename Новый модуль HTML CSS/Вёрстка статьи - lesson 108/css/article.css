@@ -1,0 +1,132 @@
+.article {
+    padding-bottom: 120px;
+}
+
+.article-mb {
+    margin-bottom: 80px;
+}
+
+.article__decor-wrapper-1 {
+    position: relative;
+}
+
+.article__decor-wrapper-1::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: calc(50% - 250px);
+    height: 48px;
+    top: 100px;
+    left: 0px;
+    background: url(../Imgs/Decoration-large-hero.svg) repeat-x;
+}
+
+.article-mb-2 {
+    margin-bottom: 40px;
+}
+
+.article__img {
+    width: 100%;
+}
+
+.group__classes-list {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+.group__classes-item {
+    margin-bottom: 12px;
+
+}
+
+.group__classes-item::marker {
+    color: #3596ed;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.article__decor-wrapper-2 {
+    position: relative;
+}
+
+.article__decor-wrapper-2::before {
+    content: '';
+    position: absolute;
+    bottom: 136px;
+    right: 0px;
+    z-index: -1;
+    background: url("../Imgs/Decoration-large-hero.svg") repeat-x;
+    width: calc(50% - 250px);
+    height: 48px;
+}
+
+.article__play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #3596ed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    cursor: pointer;
+    -webkit-transition: opacity 0.3s, background-color 0.3s;
+    -o-transition: opacity 0.3s, background-color 0.3s;
+    transition: opacity 0.3s, background-color 0.3s;
+}
+
+.article__play-button:hover {
+    background-color: #33b4ff;
+}
+
+.article__play-button:not(:disabled):active {
+    background-color: #2382b9;
+}
+
+@media (width <=768px) {
+    .article-mb {
+        margin-bottom: 50px;
+    }
+
+    .article__decor-wrapper-1::before,
+    .article__decor-wrapper-2::before {
+        display: none;
+    }
+
+    .article {
+        padding-bottom: 60px;
+    }
+}
+
+@media (width <=768px) {
+    .article__play-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .article__play-button img {
+        width: 18px;
+        height: 21px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    }
+
+    .article-mb {
+        margin-bottom: 50px;
+    }
+
+}

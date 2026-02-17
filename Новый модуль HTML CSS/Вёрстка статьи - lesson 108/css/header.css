@@ -1,0 +1,54 @@
+.header__inner {
+    padding: 30px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #d3cbd9;
+    text-decoration: none;
+    margin-bottom: 80px;
+}
+
+.header__emblem-FIT_STUDIO,
+.footer__emblem-FIT_STUDIO {
+    display: inline-block;
+    max-width: 80px;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #2c332f;
+    text-decoration: none;
+}
+
+.header__emblem-FIT_STUDIO,
+.footer__emblem-FIT_STUDIO {
+    min-width: 77px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #2c332f;
+}
+
+.contact__information {
+    text-align: right;
+}
+
+.contact__information-text {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #858e8a;
+    margin-bottom: 8px;
+}
+
+.contact__information-tel {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2c332f;
+    text-decoration: none;
+    max-width: 400px;
+}
