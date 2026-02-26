@@ -153,8 +153,7 @@ body.overflow {
 
 
 .content__list-item  {
-    max-wigth: 230px;
-    wigth: 100%;
+    max-wigth: 240px;
     cursor: pointer;
     padding: 12px 18px;
     background-color: #fff;
@@ -293,6 +292,7 @@ li a {
     }
 
 }
+
 
 
 
