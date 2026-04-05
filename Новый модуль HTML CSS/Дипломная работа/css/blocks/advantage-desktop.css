@@ -1,0 +1,113 @@
+@media (width <=1220px) {
+    .advantage-desktop {
+        display: none;
+    }
+}
+
+@media (width > 1589px) {
+    .advantage-mobile__text {
+        margin-bottom: 60px;
+    }
+}
+
+.advantage-desktop {
+    background: #191b20;
+}
+
+.advantage__container {
+    position: relative;
+}
+
+.advantage__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    transform: translateY(-55px);
+    padding-bottom: 55px;
+}
+
+@media (width <=1589px) {
+    .advantage__wrapper {
+        margin-top: 30px;
+        transform: translateY(0px);
+        padding-bottom: 110px;
+    }
+}
+
+@media (width <=576px) {
+    .advantage__wrapper {
+        padding-bottom: 0px;
+    }
+}
+
+.advantage__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(433px, 1fr));
+    gap: 30px;
+    flex-grow: 1;
+}
+
+@media (width <=1838px) {
+    .advantage__list {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+}
+
+.advantage__card {
+    max-height: 298px;
+
+}
+
+.advantage__card:nth-child(even) {
+    background: #202124;
+}
+
+.advantage__card:nth-child(odd) {
+    background: #282b32;
+}
+
+.advantage__card-icon {
+    display: flex;
+    margin-top: 51px;
+    margin-inline: 51px;
+}
+
+.advantage__card-info {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 51px;
+    gap: 10px;
+}
+
+.card-info__block {
+    display: flex;
+    gap: 12px;
+}
+
+.card-info__block:last-child .advantage__card-description:last-child {
+    margin-bottom: 52px;
+}
+
+.advantage__card-title {
+    padding-top: 31px;
+    margin-inline: 51px;
+    margin-bottom: 16px;
+}
+
+.card-description__accent {
+    font-weight: 700;
+    color: #f69020;
+}
+
+.advantage__wrapper-reservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    flex-shrink: 1;
+}
+
+.wrapper-reservation__img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,22 @@
+/* base */
+@import './base/normalize.css';
+@import './base/fonts.css';
+@import './base/vars.css';
+@import './base/globals.css';
+
+/* blocks */
+@import './blocks/header.css';
+@import './blocks/hero.css';
+@import './blocks/modal.css';
+@import './blocks/modal-buy.css';
+@import './blocks/modal-feedback__content.css';
+@import './blocks/modal-feedback__window.css';
+@import './blocks/menu.css';
+@import './blocks/burger.css';
+@import './blocks/hall.css';
+@import './blocks/hall-slider.css';
+@import './blocks/advantage-desktop.css';
+@import './blocks/advantage-mobile.css';
+@import './blocks/reservation.css';
+@import './blocks/FAQ.css';
+@import './blocks/footer.css';
