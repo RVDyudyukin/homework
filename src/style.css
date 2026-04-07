@@ -150,7 +150,9 @@ body.overflow {
     gap: 30px;
 }
 
-
+.mb {
+    margin-bottom: 50px;
+}
 
 .content__list-item  {
     width: 240px;
@@ -292,10 +294,3 @@ li a {
     }
 
 }
-
-
-
-
-
-
-
