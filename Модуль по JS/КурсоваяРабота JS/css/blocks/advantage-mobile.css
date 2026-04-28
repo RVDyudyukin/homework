@@ -1,0 +1,235 @@
+@media (width > 1220px) {
+    .advantage-mobile {
+        display: none;
+    }
+}
+
+.advantage-mobile {
+    background: #191b20;
+}
+
+.advantage__container {
+    position: relative;
+}
+
+.advantage__wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.advantage__title {
+    padding-top: 61px;
+}
+
+@media (width > 1589px) {
+    .advantage-mobile__text {
+        margin-bottom: 60px;
+    }
+}
+
+@media (width <=1220px) {
+    .advantage__list {
+        grid-template-columns: 1fr 1fr;
+        gap: 11px;
+    }
+}
+
+@media (width <=576px) {
+    .advantage__list {
+        align-items: start;
+        grid-auto-flow: dense;
+    }
+}
+
+.advantage__card:nth-child(even) {
+    background: #202124;
+}
+
+.advantage__card:nth-child(odd) {
+    background: #282b32;
+}
+
+@media (width <=1220px) {
+    .advantage__card-icon {
+        display: flex;
+        margin-top: 18px;
+        margin-inline: 18px;
+    }
+
+    .advantage__card-info {
+        display: flex;
+        flex-direction: column;
+        margin-inline: 18px;
+        gap: 10px;
+    }
+
+    .advantage__card-title:first-child {
+        padding-top: 0px;
+    }
+
+    .advantage__card-title {
+        padding-top: 31px;
+        margin-inline: 18px;
+        margin-bottom: 16px;
+    }
+}
+
+.card-info__block {
+    display: flex;
+    gap: 12px;
+}
+
+.advantage__card-description {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.38462;
+    letter-spacing: 0.03em;
+    color: #c5c5c5;
+}
+
+.card-info__block:last-child .advantage__card-description:last-child {
+    margin-bottom: 18px;
+}
+
+.title-xs__mobile {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+.card-description__accent {
+    font-weight: 700;
+    color: #f69020;
+}
+
+.advantage__wrapper-reservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    flex-shrink: 1;
+}
+
+.wrapper-reservation__img {
+    width: 70%;
+    height: auto;
+}
+
+@media (width <=1220px) {
+    .wrapper-reservation__img {
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media (width <=576px) {
+    .wrapper-reservation__img {
+        width: 70%;
+        position: relative;
+        z-index: var(--layer-negative);
+    }
+}
+
+@media (width <=457px) {
+    .wrapper-reservation__img {
+        width: 100%;
+    }
+}
+
+.card-info__block svg {
+    min-width: 13px;
+}
+
+@media (width <=576px) {
+    .advantage-mobile .button {
+        width: 100%;
+        z-index: var(--layer-3);
+        margin-bottom: 54px;
+    }
+}
+
+.order-4 {
+    order: 5;
+}
+
+.order-5 {
+    order: 4;
+}
+
+.order-6 {
+    order: 7;
+}
+
+.order-7 {
+    order: 7;
+}
+
+@media (width >576px) {
+    .order-7 {
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+    }
+}
+
+@media (width <=576px) {
+
+    .order-3,
+    .order-4,
+    .order-7 {
+        transform: translateY(-101px);
+    }
+
+    .order-7 {
+        height: 95px;
+    }
+}
+
+@media (width <=481px) {
+
+    .order-3,
+    .order-4,
+    .order-7 {
+        transform: translateY(-120px);
+    }
+
+}
+
+@media (width <=457px) {
+
+    .order-3,
+    .order-4,
+    .order-7 {
+        transform: translateY(-137px);
+    }
+
+    .advantage-mobile .button {
+        width: 100%;
+        z-index: var(--layer-3);
+        transform: translateY(-77px);
+    }
+}
+
+@media (width <=442px) {
+    .order-6 {
+        transform: translateY(-15px);
+    }
+
+    .order-3,
+    .order-4 {
+        transform: translateY(-137px);
+    }
+}
+
+@media (width <=401px) {
+    .order-7 {
+        transform: translateY(-165px);
+    }
+
+    .advantage-mobile .button {
+        margin-bottom: 0px;
+    }
+}
