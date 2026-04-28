@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XARIZMA. Караоке-залы</title>
+    <link rel="shortcut icon" href="./SVG/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
+    <script src="./js/fslightbox.js" type="module"></script>
+    <script src="./js/index.js" type="module"></script>
+
+</head>
+
+<body class="page__body">
+    <header class="header">
+        <div class="container header__container" aria-label="Открыть меню" aria-expanded="false"
+            aria-controls="header__container">
+            <a class="header__logo" href="#">
+                <img class="logo__img" src="./SVG/emblem__harizma.svg" width="277" height="52"
+                    alt="Логотип караоке залов XARIZMA" />
+            </a>
+            <div class="header__contacts">
+                <div class="header__contact">
+                    <a class="header__contact-link header__contact-link_tel" href="tel:+380979709090">
+
+                        <img class="header__contact-img" src="./SVG/header__phone.svg" alt="">
+                        <p class="header__contact-text">+38 (097) 970-90-90</p>
+                    </a>
+                </div>
+                <div class="header__contact">
+                    <button class="header__contact-link" data-modal-button="buy" data-modal-speed="300">
+                        <img class="header__contact-img" src="./SVG/header__location.svg" alt="">
+                        <p class="header__contact-location">м. Лубянка</p>
+                    </button>
+                    <button class="header__burger burger" aria-label="Открыть меню" aria-expanded="false"
+                        aria-controls="header__menu">
+                        <svg width="29" height="29">
+                            <use class="burger__icon-menu" href="./SVG/sprite.svg#burger"></use>
+                            <use class="burger__icon-cross" href="./SVG/sprite.svg#cross"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="header__actions">
+                <a class="header__actions-hall text__button" href="#hall-id" title="Наши залы"
+                    aria-label="Караоке залы">
+                    Наши залы
+                </a>
+                <button class="header__actions-reservation text__button-accent" data-modal-button="feedback"
+                    data-modal-speed="300" title="Забронировать" aria-label="Бронь караоке зала">
+                    Забронировать
+                </button>
+            </div>
+            <button class="header__contact-link--local" data-modal-button="buy" data-modal-speed="300">
+                <img class="header__contact-img" src="./SVG/header__location.svg" alt="">
+            </button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container">
+
+                <div class="hero__header">
+                    <div class="hero__header-text">
+                        <p class="text text-lg">Арендуй Караоке-Зал до 10 человек</p>
+                        <h1 class="hero__title">возьми алкоголь и еду с собой <strong
+                                class="hero__title-accent">м.Лубянка</strong>
+                        </h1>
+                    </div>
+                    <div class="header-rest">
+                        <ul class="header-rest-list">
+                            <li class="header-rest-item">
+                                <img src="./SVG/hero__header-item.svg" alt="Эмблема блоков">
+                                <p class="header-rest-text">Если хочешь попеть и оторваться</p>
+                            </li>
+                            <li class="header-rest-item">
+                                <img src="./SVG/hero__header-item.svg" alt="Эмблема блоков">
+                                <p class="header-rest-text">Отдохнуть после работы</p>
+                            </li>
+                            <li class="header-rest-item">
+                                <img src="./SVG/hero__header-item.svg" alt="Эмблема блоков">
+                                <p class="header-rest-text">Хорошо провести время</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="header__button button" data-modal-button="feedback"
+                        data-modal-speed="300">Забронировать онлайн
+                    </button>
+                </div>
+                <img class="hero__header-bg" width="1920" height="1077" src="./SVG/header__BG.png"
+                    alt="Фоновое изображения основной страницы">
+                <img class="contacts__img" src="./imgs/hero/connection.png" data-modal-button="feedback"
+                    data-modal-speed="300" alt="Кнопка 'Связаться с нами'">
+                <div class="hero__img">
+                    <img class="hero__header-img" src="./imgs/hero/dancer__woman.png"
+                        alt="Танцующая девушка в синей футболке">
+                    <div class="hero_img-active">
+                        <img class="header-active__img" src="./imgs/hero/hero_header-active.png"
+                            alt="Эмблема активности караоке зала">
+                    </div>
+                </div>
+
+            </div>
+            <div class="hero__footer">
+                <div class="hero__footer-bonuses">
+                    <div class="hero__footer-bonus">
+                        <img class="footer-bonus__img" src="./SVG/header__footer/karaoke.svg" alt="Иконка микрофона">
+                        <span class="footer-bonus__line"></span>
+                        <p class="footer-bonus__text">Профессиональное караоке AST-50</p>
+                    </div>
+                    <div class="hero__footer-bonus">
+                        <img class="footer-bonus__img" src="./SVG/header__footer/champagne.svg" alt="Иконка микрофона">
+                        <span class="footer-bonus__line"></span>
+                        <p class="footer-bonus__text">Без пробкового сбора</p>
+                    </div>
+                    <div class="hero__footer-bonus">
+                        <img class="footer-bonus__img" src="./SVG/header__footer/money.svg" alt="Иконка микрофона">
+                        <span class="footer-bonus__line"></span>
+                        <p class="footer-bonus__text">Без депозита</p>
+                    </div>
+                    <div class="hero__footer-bonus">
+                        <img class="footer-bonus__img" src="./SVG/header__footer/birthday.svg" alt="Иконка микрофона">
+                        <span class="footer-bonus__line"></span>
+                        <p class="footer-bonus__text">Скидка<br> в День Рождения</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hall" id="hall-id">
+            <div class="container hall__container">
+                <div class="hall__description">
+                    <div class="hall__title">
+                        <h1 class="title-lg">Наши залы
+                        </h1>
+                        <p class="hall__title-text text-big">Ознакомтесь с атмосферой праздника</p>
+                    </div>
+                    <div class="hall__hall-number" data-hall="list">
+                        <button class="hall-number__button hall-number__button--active" aria-label="Выбрать зал"
+                            title="Выбрать зал" data-hall="button">Hall №1</button>
+                        <button class="hall-number__button" aria-label="Выбрать зал" title="Выбрать зал"
+                            data-hall="button">Hall
+                            №2</button>
+                        <button class="hall-number__button" aria-label="Выбрать зал" title="Выбрать зал"
+                            data-hall="button">Hall
+                            №3</button>
+                        <button class="hall-number__button" aria-label="Выбрать зал" title="Выбрать зал"
+                            data-hall="button">Hall
+                            №4</button>
+                    </div>
+                    <div class="hall__img hall__img-mobile">
+
+                        <img id="bigImage" class="large" width="1407" height="1000"
+                            src="./imgs/hall-slider/img-large.jpeg" alt="Большое изображение">
+                        <div class="thumbs" id="thumbContainer">
+                            <div class="thumb-wrapper active">
+                                <img class="thumb" width="281" height="168" src="./imgs/hall-slider/im-small-1.jpeg"
+                                    alt="Миниатюра 1" data-full="./imgs/hall-slider/im-small-1.jpeg">
+                            </div>
+                            <div class="thumb-wrapper">
+                                <img class="thumb" width="281" height="168" src="./imgs/hall-slider/im-small-2.jpeg"
+                                    alt="Миниатюра 2" data-full="./imgs/hall-slider/im-small-2.jpeg">
+                            </div>
+                            <div class="thumb-wrapper">
+                                <img class="thumb" width="281" height="168" src="./imgs/hall-slider/im-small-3.jpeg"
+                                    alt="Миниатюра 3" data-full="./imgs/hall-slider/im-small-3.jpeg">
+                            </div>
+                            <div class="thumb-wrapper">
+                                <img class="thumb" width="281" height="168" src="./imgs/hall-slider/im-small-4.jpeg"
+                                    alt="Миниатюра 4" data-full="./imgs/hall-slider/im-small-4.jpeg">
+                            </div>
+                            <div class="thumb-wrapper">
+                                <img class="thumb" width="281" height="168" src="./imgs/hall-slider/im-small-5.jpeg"
+                                    alt="Миниатюра 5" data-full="./imgs/hall-slider/im-small-5.jpeg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hall__characteristics">
+                        <ul class="hall__characteristics-one">
+                            <li class="characteristics__card">
+                                <svg class="characteristics__card-icon" width="20" height="20">
+                                    <use href="./SVG/sprite.svg#hall"></use>
+                                </svg>
+                                <p class="characteristics__card-text">№ 1</p>
+                            </li>
+                            <li class="characteristics__card">
+                                <svg class="characteristics__card-icon" width="16" height="16">
+                                    <use href="./SVG/sprite.svg#size"></use>
+                                </svg>
+                                <p class="characteristics__card-text">40 м2</p>
+                            </li>
+                            <li class="characteristics__card">
+                                <svg class="characteristics__card-icon" width="21" height="16">
+                                    <use href="./SVG/sprite.svg#capacity"></use>
+                                </svg>
+                                <p class="characteristics__card-text">до 20-ти человек</p>
+                            </li>
+                        </ul>
+                        <ul class="hall__characteristics-two">
+                            <li class="characteristics__card">
+                                <svg class="characteristics__card-icon" width="20" height="20">
+                                    <use href="./SVG/sprite.svg#hall"></use>
+                                </svg>
+                                <p class="characteristics__card-text">№ 2</p>
+                            </li>
+                            <li class="characteristics__card">
+                                <svg class="characteristics__card-icon" width="16" height="16">
+                                    <use href="./SVG/sprite.svg#size"></use>
+                                </svg>
+                                <p class="characteristics__card-text">60 м2</p>
+                            </li>
+                            <li class="characteristics__card">
+                                <svg class="characteristics__card-icon" width="21" height="16">
+                                    <use href="./SVG/sprite.svg#capacity"></use>
+                                </svg>
+                                <p class="characteristics__card-text">до 40-ти человек</p>
+                            </li>
+                        </ul>
+                        <ul class="hall__characteristics-three">
+                            <li class="characteristics__card">
+                                <svg class="characteristics__card-icon" width="20" height="20">
+                                    <use href="./SVG/sprite.svg#hall"></use>
+                                </svg>
+                                <p class="characteristics__card-text">№ 3</p>
+                            </li>
+                            <li class="characteristics__card">
+                                <svg class="characteristics__card-icon" width="16" height="16">
+                                    <use href="./SVG/sprite.svg#size"></use>
+                                </svg>
+                                <p class="characteristics__card-text">80 м2</p>
+                            </li>
+                            <li class="characteristics__card">
+                                <svg class="characteristics__card-icon" width="21" height="16">
+                                    <use href="./SVG/sprite.svg#capacity"></use>
+                                </svg>
+                                <p class="characteristics__card-text">до 60-ти человек</p>
+                            </li>
+                        </ul>
+                        <ul class="hall__characteristics-four">
+                            <li class="characteristics__card">
+                                <svg class="characteristics__card-icon" width="20" height="20">
+                                    <use href="./SVG/sprite.svg#hall"></use>
+                                </svg>
+                                <p class="characteristics__card-text">№ 4</p>
+                            </li>
+                            <li class="characteristics__card">
+                                <svg class="characteristics__card-icon" width="16" height="16">
+                                    <use href="./SVG/sprite.svg#size"></use>
+                                </svg>
+                                <p class="characteristics__card-text">100 м2</p>
+                            </li>
+                            <li class="characteristics__card">
+                                <svg class="characteristics__card-icon" width="21" height="16">
+                                    <use href="./SVG/sprite.svg#capacity"></use>
+                                </svg>
+                                <p class="characteristics__card-text">до 80-ти человек</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hall__switching">
+                        <button class="switching__back">
+                            <svg class="characteristics__card-icon" width="12" height="19">
+                                <use href="./SVG/sprite.svg#switching__back"></use>
+                            </svg>
+                        </button>
+                        <div class="switching__number-slide">
+                            <p class="number-slide__active-digit">1</p>
+                            <p class="number-slide__passive-digit">из 17</p>
+                        </div>
+                        <button class="switching__next">
+                            <svg class="characteristics__card-icon" width="12" height="19">
+                                <use href="./SVG/sprite.svg#switching__back"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <button class="header__button button" data-modal-button="feedback"
+                        data-modal-speed="300">Забронировать
+                    </button>
+                </div>
+                <div class="hall__img hall__img-desktop">
+                    <img id="bigImage" class="large" width="1407" height="1000"
+                        src="./imgs/hall-slider/img-large.jpeg" alt="Большое изображение">
+                    <div class="thumbs" id="thumbContainer">
+                        <div class="thumb-wrapper active">
+                            <img class="thumb" width="281" height="168" src="./imgs/hall-slider/im-small-1.jpeg"
+                                alt="Миниатюра 1" data-full="./imgs/hall-slider/im-small-1.jpeg">
+                        </div>
+                        <div class="thumb-wrapper">
+                            <img class="thumb" width="281" height="168" src="./imgs/hall-slider/im-small-2.jpeg"
+                                alt="Миниатюра 2" data-full="./imgs/hall-slider/im-small-2.jpeg">
+                        </div>
+                        <div class="thumb-wrapper">
+                            <img class="thumb" width="281" height="168" src="./imgs/hall-slider/im-small-3.jpeg"
+                                alt="Миниатюра 3" data-full="./imgs/hall-slider/im-small-3.jpeg">
+                        </div>
+                        <div class="thumb-wrapper">
+                            <img class="thumb" width="281" height="168" src="./imgs/hall-slider/im-small-4.jpeg"
+                                alt="Миниатюра 4" data-full="./imgs/hall-slider/im-small-4.jpeg">
+                        </div>
+                        <div class="thumb-wrapper">
+                            <img class="thumb" width="281" height="168" src="./imgs/hall-slider/im-small-5.jpeg"
+                                alt="Миниатюра 5" data-full="./imgs/hall-slider/im-small-5.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantage">
+            <section class="advantage-desktop">
+                <div class="container advantage__container">
+                    <h1 class="title-lg">наши преимущества</h1>
+                    <p class="advantage-mobile__text text-big">Почему гости выбирают нас</p>
+                    <div class="advantage__wrapper">
+                        <div class="advantage__list">
+                            <article class="advantage__card">
+                                <svg class="advantage__card-icon" width="80" height="77">
+                                    <use href="./SVG/sprite__advantage-card.svg#cloth"></use>
+                                </svg>
+                                <h3 class="advantage__card-title title-xs">
+                                    Никакого дресс-контроля
+                                </h3>
+                            </article>
+                            <article class="advantage__card">
+                                <svg class="advantage__card-icon" width="80" height="80">
+                                    <use href="./SVG/sprite__advantage-card.svg#music"></use>
+                                </svg>
+                                <h3 class="advantage__card-title">
+                                    ~ 40.000 песен в сет листе
+                                </h3>
+                                <div class="advantage__card-info">
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description">Более 50,000 студийных фонограмм</p>
+                                    </div>
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description">Ежемесячное обновления репертуара</p>
+                                    </div>
+                                </div>
+
+                            </article>
+                            <article class="advantage__card">
+                                <svg class="advantage__card-icon" width="74" height="73">
+                                    <use href="./SVG/sprite__advantage-card.svg#dance"></use>
+                                </svg>
+                                <h3 class="advantage__card-title">
+                                    Индивидуальные залы
+                                </h3>
+                                <div class="advantage__card-info">
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description">Только Ваша компания</p>
+                                    </div>
+                                </div>
+
+                            </article>
+                            <article class="advantage__card">
+                                <svg class="advantage__card-icon" width="83" height="78">
+                                    <use href="./SVG/sprite__advantage-card.svg#deposit"></use>
+                                </svg>
+                                <h3 class="advantage__card-title">
+                                    Без депозита
+                                </h3>
+                                <div class="advantage__card-info">
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description card-description__accent">Мы не берем
+                                            депозит
+                                        </p>
+                                    </div>
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description">Оплата происходит за человека в час</p>
+                                    </div>
+                                </div>
+
+                            </article>
+                            <article class="advantage__card">
+                                <svg class="advantage__card-icon" width="80" height="80">
+                                    <use href="./SVG/sprite__advantage-card.svg#target"></use>
+                                </svg>
+                                <h3 class="advantage__card-title">
+                                    В самом центре Москвы
+                                </h3>
+                                <div class="advantage__card-info">
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description">м. Лубянка</p>
+                                    </div>
+                                </div>
+
+                            </article>
+                            <article class="advantage__card">
+                                <svg class="advantage__card-icon" width="68" height="68">
+                                    <use href="./SVG/sprite__advantage-card.svg#drinks"></use>
+                                </svg>
+                                <h3 class="advantage__card-title">
+                                    Нет пробкового сбора
+                                </h3>
+                                <div class="advantage__card-info">
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description">Можно приносить с собой еду, напитки и
+                                            алкоголь <strong class="card-description__accent">без пробкового
+                                                сбора</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="advantage__wrapper-reservation">
+                            <picture class="wrapper-reservation__img">
+                                <source srcset=" ./imgs/advantage/microphone.webp">
+                                <img src="./imgs/advantage/microphone.png" alt="Картинка чёрного микрофона">
+                            </picture>
+                            <button class="button" data-modal-button="feedback" data-modal-speed="300">Забронировать зал
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="advantage-mobile">
+                <div class="container advantage__container">
+                    <h1 class="advantage__title title-lg">наши преимущества</h1>
+                    <p class="advantage-mobile__text text-big">Почему гости выбирают нас</p>
+                    <div class="advantage__wrapper">
+                        <div class="advantage__list">
+                            <article class="advantage__card">
+                                <svg class="advantage__card-icon" width="44" height="43">
+                                    <use href="./SVG/sprite__advantage-card.svg#cloth"></use>
+                                </svg>
+                                <h3 class="advantage__card-title title-xs__mobile">
+                                    Никакого дресс-контроля
+                                </h3>
+                            </article>
+                            <article class="advantage__card">
+                                <svg class="advantage__card-icon" width="45" height="44">
+                                    <use href="./SVG/sprite__advantage-card.svg#music"></use>
+                                </svg>
+                                <h3 class="advantage__card-title title-xs__mobile">
+                                    ~ 40.000 песен в сет листе
+                                </h3>
+                                <div class="advantage__card-info">
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description">Более 50,000 студийных фонограмм</p>
+                                    </div>
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description">Ежемесячное обновления репертуара</p>
+                                    </div>
+                                </div>
+
+                            </article>
+                            <article class="advantage__card order-3">
+                                <svg class="advantage__card-icon" width="41" height="41">
+                                    <use href="./SVG/sprite__advantage-card.svg#dance"></use>
+                                </svg>
+                                <h3 class="advantage__card-title title-xs__mobile">
+                                    Индивидуальные залы
+                                </h3>
+                                <div class="advantage__card-info">
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description">Только Ваша компания</p>
+                                    </div>
+                                </div>
+
+                            </article>
+                            <article class="advantage__card order-4">
+                                <svg class="advantage__card-icon" width="46" height="44">
+                                    <use href="./SVG/sprite__advantage-card.svg#deposit"></use>
+                                </svg>
+                                <h3 class="advantage__card-title title-xs__mobile">
+                                    Без депозита
+                                </h3>
+                                <div class="advantage__card-info">
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description card-description__accent">Мы не берем
+                                            депозит
+                                        </p>
+                                    </div>
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description">Оплата происходит за человека в час</p>
+                                    </div>
+                                </div>
+
+                            </article>
+                            <article class="advantage__card order-5">
+                                <svg class="advantage__card-icon" width="45" height="44">
+                                    <use href="./SVG/sprite__advantage-card.svg#target"></use>
+                                </svg>
+                                <h3 class="advantage__card-title title-xs__mobile">
+                                    В самом центре Москвы
+                                </h3>
+                                <div class="advantage__card-info">
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description">м. Лубянка</p>
+                                    </div>
+                                </div>
+
+                            </article>
+                            <article class="advantage__card order-6">
+                                <svg class="advantage__card-icon" width="37" height="37">
+                                    <use href="./SVG/sprite__advantage-card.svg#drinks"></use>
+                                </svg>
+                                <h3 class="advantage__card-title title-xs__mobile">
+                                    Нет пробкового сбора
+                                </h3>
+                                <div class="advantage__card-info">
+                                    <div class="card-info__block">
+                                        <svg width="13" height="13">
+                                            <use href="./SVG/sprite__advantage-card.svg#check"></use>
+                                        </svg>
+                                        <p class="advantage__card-description">Можно приносить с собой еду, напитки и
+                                            алкоголь <strong class="card-description__accent">без пробкового
+                                                сбора</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <div class="advantage__wrapper-reservation order-7">
+                                <picture class="wrapper-reservation__img">
+                                    <source srcset=" ./imgs/advantage/microphone.webp">
+                                    <img src="./imgs/advantage/microphone.png" alt="Картинка чёрного микрофона">
+                                </picture>
+                            </div>
+                        </div>
+                        <button class="button advantage__button" data-modal-button="feedback"
+                            data-modal-speed="300">Забронировать зал
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="reservation">
+            <div class="container reservation__container">
+                <h2 class="title-lg">Как забронировать зал?</h2>
+                <p class="reservation-text text-big">бронирование по шагам в чат-боте</p>
+                <div class="swiper reservation__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="reservation__slide-inner">
+                                <picture>
+                                    <source srcset="./imgs/reservation/reservation-1.webp">
+                                    <img src="./imgs/reservation/reservation-1.png" width="252" height="474"
+                                        alt="Скриншот 'Перейти в чат-бот fh_harizma_bot'">
+                                    <div class="reservation__slide-icon">
+                                        <svg width="32" height="32">
+                                            <use href="./SVG/sprite__reservation.svg#open"></use>
+                                        </svg>
+                                        <p class="reservation__slide-text">
+                                            Перейти в чат-бот <strong
+                                                class="card-description__accent">fh_harizma_bot</strong>
+                                        </p>
+                                    </div>
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reservation__slide-inner">
+                                <picture>
+                                    <source srcset="./imgs/reservation/reservation-2.webp">
+                                    <img src="./imgs/reservation/reservation-2.png" width="252" height="474"
+                                        alt="Скриншот 'Выбрать колличество человек'">
+                                    <div class="reservation__slide-icon">
+                                        <svg width="38" height="37">
+                                            <use href="./SVG/sprite__reservation.svg#people"></use>
+                                        </svg>
+                                        <p class="reservation__slide-text">
+                                            Выбрать<br> колличество человек
+                                        </p>
+                                    </div>
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reservation__slide-inner">
+                                <picture>
+                                    <source srcset="./imgs/reservation/reservation-3.webp">
+                                    <img src="./imgs/reservation/reservation-3.png" width="252" height="474"
+                                        alt="Скриншот 'Выбрать колличество часов посещения'">
+                                    <div class="reservation__slide-icon">
+                                        <svg width="38" height="38">
+                                            <use href="./SVG/sprite__reservation.svg#time"></use>
+                                        </svg>
+                                        <p class="reservation__slide-text">
+                                            Выбрать колличество часов посещения
+                                        </p>
+                                    </div>
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reservation__slide-inner">
+                                <picture>
+                                    <source srcset="./imgs/reservation/reservation-4.webp">
+                                    <img src="./imgs/reservation/reservation-4.png" width="252" height="474"
+                                        alt="Скриншот 'Выбрать дату'">
+                                    <div class="reservation__slide-icon">
+                                        <svg width="35" height="37">
+                                            <use href="./SVG/sprite__reservation.svg#calendar"></use>
+                                        </svg>
+                                        <p class="reservation__slide-text">
+                                            Выбрать дату
+                                        </p>
+                                    </div>
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reservation__slide-inner">
+                                <picture>
+                                    <source srcset="./imgs/reservation/reservation-5.webp">
+                                    <img src="./imgs/reservation/reservation-5.png" width="252" height="474"
+                                        alt="Скриншот 'Выбрать время старта брони'">
+                                    <div class="reservation__slide-icon">
+                                        <svg width="35" height="38">
+                                            <use href="./SVG/sprite__reservation.svg#timer"></use>
+                                        </svg>
+                                        <p class="reservation__slide-text">
+                                            Выбрать<br> время старта брони
+                                        </p>
+                                    </div>
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reservation__slide-inner">
+                                <picture>
+                                    <source srcset="./imgs/reservation/reservation-5.webp">
+                                    <img src="./imgs/reservation/reservation-5.png" width="252" height="474"
+                                        alt="Скриншот 'Выбрать время старта брони'">
+                                    <div class="reservation__slide-icon">
+                                        <svg width="35" height="38">
+                                            <use href="./SVG/sprite__reservation.svg#timer"></use>
+                                        </svg>
+                                        <p class="reservation__slide-text">
+                                            Выбрать<br> время старта брони
+                                        </p>
+                                    </div>
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reservation__slide-inner">
+                                <picture>
+                                    <source srcset="./imgs/reservation/reservation-1.webp">
+                                    <img src="./imgs/reservation/reservation-1.png" width="252" height="474"
+                                        alt="Скриншот 'Перейти в чат-бот fh_harizma_bot'">
+                                    <div class="reservation__slide-icon">
+                                        <svg width="32" height="32">
+                                            <use href="./SVG/sprite__reservation.svg#open"></use>
+                                        </svg>
+                                        <p class="reservation__slide-text">
+                                            Перейти в чат-бот <strong
+                                                class="card-description__accent">fh_harizma_bot</strong>
+                                        </p>
+                                    </div>
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reservation__slide-inner">
+                                <picture>
+                                    <source srcset="./imgs/reservation/reservation-2.webp">
+                                    <img src="./imgs/reservation/reservation-2.png" width="252" height="474"
+                                        alt="Скриншот 'Выбрать колличество человек'">
+                                    <div class="reservation__slide-icon">
+                                        <svg width="38" height="37">
+                                            <use href="./SVG/sprite__reservation.svg#people"></use>
+                                        </svg>
+                                        <p class="reservation__slide-text">
+                                            Выбрать<br> колличество человек
+                                        </p>
+                                    </div>
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reservation__slide-inner">
+                                <picture>
+                                    <source srcset="./imgs/reservation/reservation-3.webp">
+                                    <img src="./imgs/reservation/reservation-3.png" width="252" height="474"
+                                        alt="Скриншот 'Выбрать колличество часов посещения'">
+                                    <div class="reservation__slide-icon">
+                                        <svg width="38" height="38">
+                                            <use href="./SVG/sprite__reservation.svg#time"></use>
+                                        </svg>
+                                        <p class="reservation__slide-text">
+                                            Выбрать колличество часов посещения
+                                        </p>
+                                    </div>
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reservation__slide-inner">
+                                <picture>
+                                    <source srcset="./imgs/reservation/reservation-4.webp">
+                                    <img src="./imgs/reservation/reservation-4.png" width="252" height="474"
+                                        alt="Скриншот 'Выбрать дату'">
+                                    <div class="reservation__slide-icon">
+                                        <svg width="35" height="37">
+                                            <use href="./SVG/sprite__reservation.svg#calendar"></use>
+                                        </svg>
+                                        <p class="reservation__slide-text">
+                                            Выбрать дату
+                                        </p>
+                                    </div>
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reservation__slide-inner">
+                                <picture>
+                                    <source srcset="./imgs/reservation/reservation-4.webp">
+                                    <img src="./imgs/reservation/reservation-4.png" width="252" height="474"
+                                        alt="Скриншот 'Выбрать дату'">
+                                    <div class="reservation__slide-icon">
+                                        <svg width="35" height="37">
+                                            <use href="./SVG/sprite__reservation.svg#calendar"></use>
+                                        </svg>
+                                        <p class="reservation__slide-text">
+                                            Выбрать дату
+                                        </p>
+                                    </div>
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-box__pagination-button">
+                        <button class="swiper-box__button-prev">
+                            <svg class="characteristics__card-icon" width="12" height="19">
+                                <use href="./SVG/sprite.svg#switching__back"></use>
+                            </svg>
+                        </button>
+                        <div class="swiper-box__pagination">
+                            <div class="switching__number-slide">
+                                <p class="pagination-number-slide__active-digit">3</p>
+                                <p class="pagination-number-slide__passive-digit">из 12</p>
+                            </div>
+                        </div>
+                        <button class="swiper-box__button-next">
+                            <svg class="characteristics__card-icon" width="12" height="19">
+                                <use href="./SVG/sprite.svg#switching__back"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="FAQ">
+            <div class="container">
+                <h2 class="title-lg title-lg__mobile">Вопросы и ответы</h2>
+                <p class="FAQ-text text-big">Мы подготовили ответы на часто задаваемые вопросы</p>
+                <div class="FAQ__container">
+                    <div class="FAQ__questions">
+                        <details class="FAQ__details" name="faq" open>
+                            <summary class="FAQ__details-title">Какое у вас караоке?
+                                <div class="details-title__svg">
+                                    <svg class="details-title__svg-item" width="19" height="12">
+                                        <use href="./SVG/FAQ-sprite.svg#FAQ"></use>
+                                    </svg>
+                                </div>
+                            </summary>
+                            <p class="FAQ__details-text">Более 50,000 студийных фонограмм. Из них 80% -
+                                оригинальные
+                                минусовки в качестве PRO (mp3 - WAV).</p>
+                            <p class="FAQ__details-text">Ежемесячное обновления репертуара.</p>
+                            <p class="FAQ__details-text">Более 10,000 специальных фонограмм в сопровождении
+                                оригинальных
+                                видеоклипов.</p>
+                        </details>
+                        <details class="FAQ__details" name="faq">
+                            <summary class="FAQ__details-title title__medium">Есть ли у вас английские песни?
+                                <div class="details-title__svg">
+                                    <svg class="details-title__svg-item" width="19" height="12">
+                                        <use href="./SVG/FAQ-sprite.svg#FAQ"></use>
+                                    </svg>
+                                </div>
+                            </summary>
+                            <p class="FAQ__details-text global__text">Более 50,000 студийных фонограмм. Из них 80% -
+                                оригинальные
+                                минусовки в качестве PRO (mp3 - WAV).</p>
+                            <p class="FAQ__details-text global__text">Ежемесячное обновления репертуара.</p>
+                            <p class="FAQ__details-text global__text">Более 10,000 специальных фонограмм в сопровождении
+                                оригинальных
+                                видеоклипов.</p>
+                        </details>
+                        <details class="FAQ__details" name="faq">
+                            <summary class="FAQ__details-title title__medium">Можно ли подключить телефон?
+                                <div class="details-title__svg">
+                                    <svg class="details-title__svg-item" width="19" height="12">
+                                        <use href="./SVG/FAQ-sprite.svg#FAQ"></use>
+                                    </svg>
+                                </div>
+                            </summary>
+                            <p class="FAQ__details-text global__text">Более 50,000 студийных фонограмм. Из них 80% -
+                                оригинальные
+                                минусовки в качестве PRO (mp3 - WAV).</p>
+                            <p class="FAQ__details-text global__text">Ежемесячное обновления репертуара.</p>
+                            <p class="FAQ__details-text global__text">Более 10,000 специальных фонограмм в сопровождении
+                                оригинальных
+                                видеоклипов.</p>
+                        </details>
+                        <details class="FAQ__details" name="faq">
+                            <summary class="FAQ__details-title title__medium">Сколько микрофонов в каждом зале?
+                                <div class="details-title__svg">
+                                    <svg class="details-title__svg-item" width="19" height="12">
+                                        <use href="./SVG/FAQ-sprite.svg#FAQ"></use>
+                                    </svg>
+                                </div>
+                            </summary>
+                            <p class="FAQ__details-text global__text">Более 50,000 студийных фонограмм. Из них 80% -
+                                оригинальные
+                                минусовки в качестве PRO (mp3 - WAV).</p>
+                            <p class="FAQ__details-text global__text">Ежемесячное обновления репертуара.</p>
+                            <p class="FAQ__details-text global__text">Более 10,000 специальных фонограмм в сопровождении
+                                оригинальных
+                                видеоклипов.</p>
+                        </details>
+                        <details class="FAQ__details" name="faq">
+                            <summary class="FAQ__details-title title__medium">Есть ли оплата картой?
+                                <div class="details-title__svg">
+                                    <svg class="details-title__svg-item" width="19" height="12">
+                                        <use href="./SVG/FAQ-sprite.svg#FAQ"></use>
+                                    </svg>
+                                </div>
+                            </summary>
+                            <p class="FAQ__details-text global__text">Более 50,000 студийных фонограмм. Из них 80% -
+                                оригинальные
+                                минусовки в качестве PRO (mp3 - WAV).</p>
+                            <p class="FAQ__details-text global__text">Ежемесячное обновления репертуара.</p>
+                            <p class="FAQ__details-text global__text">Более 10,000 специальных фонограмм в сопровождении
+                                оригинальных
+                                видеоклипов.</p>
+                        </details>
+                        <details class="FAQ__details" name="faq">
+                            <summary class="FAQ__details-title title__medium">Можно приность с собой алкоголь и еду?
+                                <div class="details-title__svg">
+                                    <svg class="details-title__svg-item" width="19" height="12">
+                                        <use href="./SVG/FAQ-sprite.svg#FAQ"></use>
+                                    </svg>
+                                </div>
+                            </summary>
+                            <p class="FAQ__details-text global__text">Более 50,000 студийных фонограмм. Из них 80% -
+                                оригинальные
+                                минусовки в качестве PRO (mp3 - WAV).</p>
+                            <p class="FAQ__details-text global__text">Ежемесячное обновления репертуара.</p>
+                            <p class="FAQ__details-text global__text">Более 10,000 специальных фонограмм в сопровождении
+                                оригинальных
+                                видеоклипов.</p>
+                        </details>
+                        <details class="FAQ__details" name="faq">
+                            <summary class="FAQ__details-title title__medium">Как расчитывается стоимость?
+                                <div class="details-title__svg">
+                                    <svg class="details-title__svg-item" width="19" height="12">
+                                        <use href="./SVG/FAQ-sprite.svg#FAQ"></use>
+                                    </svg>
+                                </div>
+                            </summary>
+                            <p class="FAQ__details-text global__text">Более 50,000 студийных фонограмм. Из них 80% -
+                                оригинальные
+                                минусовки в качестве PRO (mp3 - WAV).</p>
+                            <p class="FAQ__details-text global__text">Ежемесячное обновления репертуара.</p>
+                            <p class="FAQ__details-text global__text">Более 10,000 специальных фонограмм в сопровождении
+                                оригинальных
+                                видеоклипов.</p>
+                        </details>
+                    </div>
+                    <div class="FAQ__context">
+                        <p class="FAQ__context-text">В нашем заведении Бельгийский ковролин. На входе выдают <span
+                                class="card-description__accent">индивидуально запакованные тапочки,</span> в которые
+                            необходимо переобуться.</p>
+                        <picture class="FAQ__container-img">
+                            <source srcset="./imgs/FAQ/faq-slippers.webp">
+                            <img src="./imgs/FAQ/faq-slippers.png" width="667" height="806"
+                                alt="Замшевые одноразовые тапочки inblu для зала XARIZMA">
+                        </picture>
+                        <button class="FAQ__context-button button" data-modal-button="feedback"
+                            data-modal-speed="300">Забронировать зал
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container-desktop">
+            <a class="footer__logo" href="#">
+                <img class="logo__img" src="./SVG/emblem__harizma.svg" width="277" height="52"
+                    alt="Логотип караоке залов XARIZMA" />
+            </a>
+            <div class="footer__tel">
+                <a class="footer__contact-link" href="tel:+380979709090">
+                    <img class="footer__contact-img" src="./SVG/header__phone.svg" alt="">
+                    <p class="footer__contact-text">+38 (097) 970-90-90</p>
+                </a>
+            </div>
+            <div class="footer__opening-hours">
+                <div class="opening-hours-icon">
+                    <img class="opening-hours-img" src="./SVG/footer__sprite.svg"
+                        alt="Иконка календаря в круглом сером фоне">
+                </div>
+                <p class="footer__contact-text">Пн — Вс круглосуточно</p>
+            </div>
+            <div class="footer__contact">
+                <button class="footer__contact-link" data-modal-button="buy" data-modal-speed="300">
+                    <img class="footer__contact-img" src="./SVG/header__location.svg" alt="">
+                    <p class="footer__contact-location">м. Лубянка, ул. Сретенский переулок, 4</p>
+                </button>
+            </div>
+            <button class="footer__actions-hall text__button">
+                Построить маршрут
+            </button>
+        </div>
+        <div class="container footer__container-mobile">
+            <a class="footer__logo" href="#">
+                <img class="logo__img" src="./SVG/emblem__harizma.svg" width="277" height="52"
+                    alt="Логотип караоке залов XARIZMA" />
+            </a>
+            <div class="footer__contacts">
+                <div class="footer__contact">
+                    <button class="footer__contact-link" data-modal-button="buy" data-modal-speed="300">
+                        <img class="footer__contact-img" src="./SVG/header__location.svg" alt="">
+                        <p class="footer__contact-location">м. Лубянка</p>
+                    </button>
+                </div>
+                <div class="footer__contact">
+                    <a class="footer__contact-link footer__contact-link_tel" href="tel:+380979709090">
+                        <img class="footer__contact-img" src="./SVG/header__phone.svg" alt="">
+                        <p class="footer__contact-text">+38 (097) 970-90-90</p>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__actions">
+                <button class="footer__actions-hall text__button" title="Наши залы" aria-label="Караоке залы">
+                    Наши залы
+                </button>
+                <button class="footer__actions-reservation text__button-accent" data-modal-button="feedback"
+                    data-modal-speed="300" title="Забронировать" aria-label="Бронь караоке зала">
+                    Забронировать
+                </button>
+            </div>
+        </div>
+    </footer>
+    <div class="modal">
+        <div class="modal__window modal-buy" data-modal-window="buy">
+            <button class="modal__close" aria-label="Закрыть" title="Закрыть" data-modal-close>
+                <svg width="24" height="24">
+                    <use href="./SVG/sprite.svg#cross"></use>
+                </svg>
+            </button>
+            <div class="modal__content modal-buy__content">
+                <h3 class="modal-buy__title title-sm">Наше расположение</h3>
+                <form class="modal-buy__form">
+                    <iframe class="modal-buy__form-map"
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A63429f657779a6d0fab88d946321df23a6f4ab552b040adf1974ad2264f2308e&amp;source=constructor"
+                        width="1280" height="370" frameborder="0">
+                    </iframe>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal__feedback">
+        <div class="modal-feedback__window modal-feedback" data-modal-window="feedback">
+            <button class="modal-feedback__close" aria-label="Закрыть" title="Закрыть" data-modal__feedback-close>
+                <svg width="24" height="24">
+                    <use href="./SVG/sprite.svg#cross"></use>
+                </svg>
+            </button>
+            <div class="modal__content-feedback modal-feedback__content">
+                <h3 class="modal-feedback__title title-sm">Введите ваш номер телефона и мы вам перезвоним</h3>
+                <form class="modal-feedback__form">
+                    <label class="modal-feedback__label">
+                        <input class="modal-feedback__input" type="tel" placeholder="Номер телефона" name="phone"
+                            required />
+                    </label>
+                    <button class="modal-feedback__submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="go-upstairs">
+        <a class="go-upstair__link" href="#">
+            <picture>
+                <source srcset="./imgs/go-upstairs.webp">
+                <img src="./imgs/go-upstairs.png" alt="Кнопка подняться вверх">
+            </picture>
+        </a>
+    </div>
+</body>
+
+</html>
