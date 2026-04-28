@@ -1,0 +1,225 @@
+.page {
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--main-color);
+    scroll-behavior: smooth;
+    scroll-padding-top: 95px;
+    scrollbar-gutter: stable;
+}
+
+.page__body {
+    min-width: 361px;
+}
+
+.page__body--no-scroll {
+    overflow-y: hidden;
+}
+
+.container {
+    width: min(var(--container-width), 100% - var(--container-padding)*2);
+    margin-inline: auto;
+}
+
+img {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus {
+    outline: 1px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+
+@media (width > 576px) {
+    .text__button {
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .text__button-accent {
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #252121;
+    }
+}
+
+@media (width <=576px) {
+    .text__button {
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .text__button-accent {
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #252121;
+    }
+}
+
+.text {
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.text-lg {
+    font-size: clamp(12px, -0.012rem + 3.38vw, 41px);
+    line-height: 2;
+}
+
+.text-light,
+.text-regular,
+.text-big {
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-regular {
+    font-size: 18px;
+    line-height: 1.27778;
+}
+
+.text-big {
+    font-size: 24px;
+    line-height: 2;
+}
+
+@media (width <=1220px) {
+    .text-big {
+        font-size: 18px;
+    }
+}
+
+@media (width <=576px) {
+    .text-big {
+        line-height: 1.27778;
+    }
+}
+
+.header-rest-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+@media (width <576px) {
+    .header-rest-text {
+        width: 150px;
+        font-size: 13px;
+        line-height: 1.38462;
+    }
+}
+
+.title-md,
+.title-lg {
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.title-md {
+    font-size: 36px;
+    line-height: 1.33333;
+}
+
+.title-lg {
+    font-size: clamp(36px, 1.226rem + 4.54vw, 75px);
+    ;
+    padding-bottom: 35px;
+}
+
+@media (width >576px) {
+    .title-lg {
+        line-height: 1.09333;
+        padding-top: 100px;
+    }
+}
+
+@media (width <=576px) {
+    .title-lg {
+        line-height: 1.33333;
+    }
+
+    .title-lg__mobile {
+        padding-top: 60px;
+    }
+}
+
+
+
+@media (width > 1220px) {
+    .button {
+        width: 277px;
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #252121;
+        padding-block: 29px;
+        background: linear-gradient(141deg, #ea422a 0%, #f69020 47.92%, #ffc619 100%);
+        border-radius: 60px;
+    }
+}
+
+@media (width <=1220px) {
+    .button {
+        width: 223px;
+        font-weight: 700;
+        font-size: 11px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #252121;
+        padding-block: 20px;
+        background: linear-gradient(141deg, #ea422a 0%, #f69020 47.92%, #ffc619 100%);
+        border-radius: 60px;
+    }
+}
+
+.go-upstairs {
+    position: fixed;
+    bottom: 64px;
+    right: 50px;
+    z-index: var(--layer-3);
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.go-upstairs--hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media (width <=768px) {
+    .go-upstairs {
+        position: fixed;
+        bottom: 219px;
+        right: 23px;
+        width: 44px;
+    }
+}
